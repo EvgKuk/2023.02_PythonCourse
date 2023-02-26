@@ -35,8 +35,6 @@ print('введите сумму чисел: ')
 sum = int(input())
 print('введите произведение чисел: ')
 mult = int(input())
-# x = sum - mult / x
-# y = mult / (sum - y)
 for x in range(1, 1001):
     for y in range (1, 1001):
         if x + y == sum and x * y == mult:
